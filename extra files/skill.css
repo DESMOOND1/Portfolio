@@ -1,0 +1,207 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+body{
+    background: black;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,  url(aes.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Container for skill bars */
+.container {
+  width: 50%; /* Full width */
+  background-color: #fffafa; /* Grey background */
+  border-radius: 100px;
+}
+
+/*skills*/
+
+.python {width: 90%; background-color: #12f7ff;
+    outline: 1px solid rgb(0, 0, 0);
+animation:python 2s  ;} /* Green */
+
+.html {width: 90%; background-color: #12f7ff;
+    animation:html 2s  ;} /* Green */
+
+.css {width: 90%; background-color: #12f7ff;
+animation:css 2s  ;} /* Green */
+
+.r {width: 70%; background-color: #12f7ff;
+    animation:r 2s  ;} /* Green */
+
+.c {width: 70%; background-color: #12f7ff;
+  animation:c 2s  ;} /* Green */    
+
+.tab {width: 50%; background-color: #12f7ff;
+    animation:tab 2s  ;}
+
+.java {width: 70%; background-color: #12f7ff;
+    animation:c 2s  ;}
+
+  .skill{
+   margin-left: 500px;
+   margin-top: 100px;
+}
+
+div.skill p{
+    color: white;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+div.cont h1{
+    color: white;
+    text-align: center;
+}
+
+
+
+div.link{
+    color: white;
+}
+
+/*SOCIALS*/
+
+div.kaggle a img{
+    width: 140px;
+    height: 80px;
+}
+div.git img{
+    width: 140px;
+    height: 110px;
+}
+div.upw img{
+    width: 100px;
+    height: 90px;
+}
+
+div.link{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/**/
+
+div.kaggle{    align-items: center;
+    align-self: center;
+    text-align: center;
+    
+}
+
+/*ANIMATION */
+
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes r {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes c  {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes tab {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes java {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+/**/
+
+.soft {
+    color: white;
+}
+
+/**/
+
+div.button a{
+    color: white;
+    margin-left: 1200px;
+    font-size: 1.5em;
+}
+
+.but:hover{
+    color: #12f7ff;
+}
+
+.but{ text-decoration: none;
+border: 1px solid #12f7ff;
+}
+
+/*img scale*/
+
+.kaggle{
+    transition: transform .2s;
+}
+
+.kaggle img:hover{
+    transform: scale(1.04);
+}
+
+.git{
+    transition: transform .2s;
+}
+
+.git img:hover{
+    transform: scale(1.04);
+}
+
+.upw{
+    transition: transform .2s;
+}
+
+.upw img:hover{
+    transform: scale(1.04);
+}
+
+/**/
+

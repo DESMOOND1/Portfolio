@@ -1,0 +1,703 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.951);
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* HEADER */
+
+div.header {
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.container {
+    padding: 10px 10%;
+    background-color: rgba(5, 5, 5, 0.5);
+}
+
+.logo {
+    width: 140px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #12f7ff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 5px 5px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav li a:hover {
+    box-shadow: 0 0 1rem #12f7ff;
+    background: #12f7ff;
+    color: black;
+}
+
+/* BELOW HEADER */
+
+
+
+#about {
+    color: white;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+/*buttton*/
+
+#btn {
+    color: #12f7ff;
+}
+
+a.btn:hover {
+    color: #12f7ff;
+}
+
+
+/* btn2 BUTTON 2*/
+
+.btn2:hover {
+    box-shadow: 0 0 1rem #12f7ff;
+    background: #12f7ff;
+    color: black;
+
+}
+
+
+/* SCROLL STYLE CHANGING*/
+
+::-webkit-scrollbar {
+    height: 0;
+    width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #12f7ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0d0e0e;
+}
+
+.content {
+    background: #12f7ff;
+    width: 100%;
+    align-content: center;
+}
+
+.content {
+    display: flex;
+}
+
+
+.content textarea {
+    align-items: center;
+    width: 200%;
+    color: #000;
+    background: #feffff;
+    margin-bottom: .5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.content {
+    align-content: center;
+    justify-content: center;
+    margin-left: -10%;
+
+}
+
+
+/* <!-- container1-- ANIMATION >*/
+
+.container1 h1 {
+    font-size: 60px;
+}
+
+div.container1 {
+    color: white;
+
+}
+
+.wrapper {
+    display: inline-flex;
+}
+
+.fixedtext {
+    color: #feffff;
+    font-size: 60px;
+
+}
+
+/*  */
+
+.movingtext {
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+/*animation apply*/
+
+.movingtext li {
+    color: #01fe87;
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: move 6s steps(4) infinite;
+}
+
+@keyframes move {
+    100% {
+        top: -360px;
+    }
+}
+
+.movingtext li span:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #343f4f;
+    border-left: 2px solid #01fe87;
+    animation: type 1.5s steps(10) infinite;
+}
+
+@keyframes type {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+
+/* ANIMATION END */
+
+/**/
+
+div.container1 {
+    margin-top: 220px;
+    margin-left: 50px;
+}
+
+div.wrapper {
+    margin-top: 10px;
+}
+
+/**/
+
+.work-list img {
+    height: 200px;
+    width: 500px;
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+
+/*new*/
+
+#bg11 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+#hell {
+    margin-bottom: -8100px;
+}
+
+.container11 h1 {
+    margin-bottom: 300px;
+}
+
+/*==================  SKILLLLS   ===========================*/
+/*=============================================*/
+/*=============================================*/
+
+
+.container11 {
+    width: 50%;
+    /* Full width */
+    background-color: #fffafa;
+    /* Grey background */
+    border-radius: 100px;
+}
+
+/*skills*/
+
+.python {
+    width: 90%;
+    background-color: #12f7ff;
+    outline: 1px solid rgb(0, 0, 0);
+    animation: python 2s;
+    ;
+    color: black;
+}
+
+/* Green */
+
+.html {
+    width: 90%;
+    background-color: #12f7ff;
+    animation: html 2s;
+    ;
+    color: black;
+}
+
+/* Green */
+
+.css {
+    width: 90%;
+    background-color: #12f7ff;
+    animation: css 2s;
+    ;
+    color: black;
+}
+
+/* Green */
+
+.r {
+    width: 70%;
+    background-color: #12f7ff;
+    animation: r 2s;
+    ;
+    color: black;
+}
+
+/* Green */
+
+.c {
+    width: 70%;
+    background-color: #12f7ff;
+    animation: c 2s;
+    ;
+    color: black;
+}
+
+/* Green */
+
+.tab {
+    width: 60%;
+    background-color: #12f7ff;
+    animation: tab 2s;
+    color: black;
+}
+
+.java {
+    width: 70%;
+    background-color: #12f7ff;
+    animation: c 2s;
+    ;
+    color: black;
+}
+
+.skill {
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+div.skill p {
+    color: white;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+div.cont h1 {
+    color: white;
+    text-align: center;
+}
+
+
+
+div.link {
+    color: white;
+}
+
+/*SOCIALS*/
+
+div.kaggle a img {
+    width: 120px;
+    height: 60px;
+}
+
+div.git img {
+    width: 120px;
+    height: 90px;
+}
+
+div.upw img {
+    width: 80px;
+    height: 70px;
+}
+
+div.link {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/**/
+
+div.kaggle {
+    align-items: center;
+    align-self: center;
+    text-align: center;
+
+}
+
+/*ANIMATION */
+
+@keyframes python {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes r {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes c {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes tab {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes java {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+/**/
+
+.soft {
+    color: white;
+}
+
+/**/
+
+div.button a {
+    color: white;
+    margin-left: 1200px;
+    font-size: 1.5em;
+}
+
+.but:hover {
+    color: #12f7ff;
+}
+
+.but {
+    text-decoration: none;
+    border: 1px solid #12f7ff;
+}
+
+/*img scale*/
+
+.kaggle {
+    transition: transform .2s;
+}
+
+.kaggle img:hover {
+    transform: scale(1.04);
+}
+
+.git {
+    transition: transform .2s;
+}
+
+.git img:hover {
+    transform: scale(1.04);
+}
+
+.upw {
+    transition: transform .2s;
+}
+
+.upw img:hover {
+    transform: scale(1.04);
+}
+
+/**/
+
+
+/*==================  portf  CSS  ===========================*/
+/*=============================================*/
+/*=============================================*/
+
+
+
+
+
+.work-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work h1 {
+    color: white;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+
+.work img {
+    width: 80%;
+    height: 400px;
+    border-radius: 10px;
+    display: block;
+    justify-content: space-around;
+    border: 1px solid blanchedalmond;
+    outline: 2px solid #12f7ff;
+}
+
+.animate__animated {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+div.portfolioo h1,
+h2,
+h3,
+p {
+    color: white;
+}
+
+div.container123 {
+    margin-left: 60px;
+}
+
+div.layer h2,
+p {
+    margin-left: 100px;
+}
+
+
+#green {
+    color: rgb(29, 213, 32);
+}
+
+
+div.layer {
+    width: 100%;
+    text-align: center;
+    text-wrap: balance;
+    align-items: center;
+}
+
+div.layer a {
+    margin-left: 70px;
+    border: 2px solid brown;
+    background-color: white;
+    text-decoration: none;
+    border-style: groove;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.layer a:hover {
+    background-color: aquamarine;
+}
+
+
+/*========*/
+
+/* HEADER */
+
+div.header1 {
+    width: 100%;
+    height: 100vh;
+
+
+}
+
+.container123 {
+    padding: 10px 10%;
+    background-color: rgba(7, 7, 7, 0.5);
+}
+
+.logo {
+    width: 140px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #12f7ff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 5px 5px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav li a:hover {
+    box-shadow: 0 0 1rem #12f7ff;
+    background: #12f7ff;
+    color: black;
+}
+
+.sub-title h1 {
+    font-size: 90em;
+}
+
+.net {
+    color: red;
+}
+
+/*img hover*/
+
+.work {
+    transition: transform .2s;
+}
+
+.anim:hover {
+    transform: scale(1.04);
+}
+
+.lol {
+    color: azure;
+}
+
+div.container123 h2 {
+    color: white;
+    font-weight: 5000;
+}
+
+div.work-list h2,
+p {
+    text-align: center;
+    margin-left: 0px;
+
+}
+
+div.work-list p {
+    font-size: 1.1rem;
+}
+
+div.work-list img {
+    margin-left: 50px;
+}
+
+
+/*DATA SCIENCE*/
+
+.hadim img:hover {
+    transform: scale(1.3);
+}
+
+.ds h2 {
+    font-size: 2.5em;
+}
+
+.ds p {
+    font-size: 1.6em;
+}
+
+/*css*/
+
+.css1 {
+    width: 100px;
+    height: 50px;
+}
