@@ -695,6 +695,37 @@ div.work-list img {
     font-size: 1.6em;
 }
 
+
+
+/*keyframe for python library*/
+
+.lib .panda {
+    animation: wobble 10s infinite;
+}
+.lib .numpy {
+    animation: wobble 10s infinite;
+}
+.lib .seaborn {
+    animation: wobble 10s infinite;
+}
+
+
+@keyframes wobble {
+    0% {
+        transform: translateX(.1rem);
+    }
+
+    50%{
+        transform: translateX(.5rem);
+    }
+
+    100% {
+        transform: translateX(1rem);
+    }
+}
+
+
+
 /*css*/
 
 .css1 {
